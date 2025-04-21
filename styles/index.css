@@ -1,0 +1,614 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.Container {
+    background-color: #18181b;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #18181b;
+    width: 100%;
+    height: 85px;
+    padding-top: 15px;
+    position: fixed;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Container section input {
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #27272a;
+    color: gray;
+}
+
+input::placeholder {
+    transform: translateX(25px);
+    font-weight: 500;
+}
+
+.Container section i {
+    position: absolute;
+    left: 85px;
+    top: 38%;
+    color: gray;
+}
+
+.btn-section {
+    background-color: gray;
+    width: 310px;
+    height: 55px;
+    border-radius: 10px;
+    margin-right: 100px;
+    background-color: #27272a;
+
+}
+
+.btn-section button {
+    width: 62px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 8px;
+    margin-left: 8px;
+    background-color: #27272a;
+    color: gray;
+    outline: none;
+
+}
+
+.btn-section button:hover {
+    background-color: white;
+    color: black;
+}
+
+.header-last-btn {
+    margin-right: 30px;
+}
+
+.header-last-btn a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.header-last-btn button {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fef08a;
+    font-weight: 600;
+
+}
+
+.content {
+    padding-top: 110px;
+
+
+}
+
+
+.img-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img-section p {
+    color: gray;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+
+.content section h1 {
+    width: 800px;
+    font-size: 57px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    margin-left: 270px;
+
+}
+
+.content p {
+    text-align: center;
+    color: gray;
+}
+
+.content section button {
+    width: 170px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.content-btn {
+    margin-left: 450px;
+    margin-top: 20px;
+    /* margin-bottom: 30px; */
+}
+
+.content section .btn-1 {
+    background-color: #fef08a;
+
+}
+
+.content section .btn-2 {
+    background-color: #27272a;
+    color: white;
+}
+
+.app-img {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.channel-ads p {
+    text-align: center;
+    color: gray;
+    font-weight: bold;
+}
+
+.channel-ads img {
+    margin-left: 210px;
+}
+
+.cards .card {
+    display: flex;
+    flex-direction: row;
+}
+
+.cards h1 {
+    margin-top: 70px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-left: 450px;
+}
+
+.cards .card {
+    width: 1000px;
+    height: 400px;
+    margin-bottom: 20px;
+    align-items: center;
+    margin-left: 150px;
+    background-color: #27272a;
+    border-radius: 20px;
+}
+
+.card img {
+    margin-left: 50px;
+
+}
+
+.card h1 {
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.card p {
+    color: gray;
+    font-size: 15px;
+    width: 500px;
+    text-align: justify;
+    margin-left: 50px;
+}
+
+
+.card-heading {
+    text-align: center;
+    color: white;
+    margin: 5%;
+}
+
+.card-heading h1 {
+    font-weight: 700;
+}
+
+.card-heading p {
+    color: gray;
+}
+
+.cards-2 {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-left: 150px;
+}
+
+.card-2 {
+    width: 300px;
+    height: 310px;
+    background-color: #27272a;
+    margin-right: 30px;
+    border-radius: 10px;
+    padding: 2%;
+    margin-bottom: 10%;
+}
+
+.card-2 h6 {
+    margin-bottom: 50px;
+    font-size: larger;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.card-2 p {
+    font-size: 15px;
+}
+
+.company-ads section h1 {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.company-ads .img-section {
+    margin-left: 60px;
+    margin-top: 25px;
+
+}
+
+.company-ads img {
+    margin-right: 2%;
+    margin-bottom: 30px;
+
+}
+
+.book-section image {
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+
+
+.pay-method-heading {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.pay-method-heading h1 {
+    font-weight: bold;
+    color: white;
+}
+
+.pay-method-heading p {
+    color: gray;
+    width: 600px;
+    margin-left: 350px;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.pay-method-full {
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.duration {
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.note {
+    font-size: 14px;
+    margin-top: 20px;
+    color: gray;
+}
+
+.Quarterly-plan {
+    width: 350px;
+    height: 500px;
+    background-color: #27272a;
+    color: white;
+    padding: 1%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    margin-top: 3%;
+}
+
+.Quarterly-plan h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.Quarterly-plan button {
+    width: 320px;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.Quarterly-plan ul {
+
+    list-style: none;
+}
+
+.Quarterly-plan li {
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.Quarterly-plan ul li i {
+    color: white;
+}
+
+.highlight {
+    width: 350px;
+    height: 570px;
+    background-color: #27272a;
+    color: white;
+    padding: 1%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    border: 2px solid #fef08a;
+
+}
+
+.highlight button {
+    width: 320px;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+    background-color: #fef08a;
+}
+
+.pop-up {
+    color: #fef08a;
+    text-align: center;
+}
+
+.highlight ul li {
+    list-style: none;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.highlight .badge {
+    background-color: #fef08a;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.Team-plan {
+    width: 350px;
+    height: 450px;
+    background-color: #27272a;
+    color: white;
+    padding: 1%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    margin-top: 3%;
+}
+
+.Team-plan h2 {
+    font-size: 15px;
+}
+
+.Team-plan button {
+    width: 320px;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+.Team-plan ul {
+    list-style: none;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+
+}
+
+.Team-plan select {
+    background-color: #27272a;
+    border: none;
+    color: white;
+}
+
+.last-section {
+    background-color: #27272a;
+}
+
+.last-profile-section {
+    margin-left: 550px;
+    margin-top: 90px;
+    padding-top: 90px;
+}
+
+.last-profile-section img {
+    margin-right: 1%;
+}
+
+.last-section section h1 {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+.last-section section p {
+    color: gray;
+    font-weight: 400;
+    text-align: center;
+    width: 700px;
+    margin-left: 260px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.last-section-btn {
+    margin-left: 430px;
+
+}
+
+.last-section-btn-1 {
+    width: 200px;
+    height: 45px;
+    margin-right: 1%;
+    border: none;
+    border-radius: 10px;
+    background-color: #fef08a;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.last-section-btn-2 {
+    width: 200px;
+    height: 45px;
+    margin-right: 1%;
+    border: none;
+    border-radius: 10px;
+    background-color: gray;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    padding: 2%;
+}
+
+.footer section a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+
+/* ---------------------------------------------------------------------------- */
+
+
+
+@media (max-width: 768px) {
+    
+
+    header .btn-section , .header-last-btn{
+        display: none;
+    }
+
+    .content-btn , .app-img , .channel-ads , .cards , .img-section, .book-section{
+        display: none;
+    }
+    .content section h1{
+        margin-left: 0%;
+    }
+
+    .cards-2{
+        display: flex;
+        flex-direction: column;
+        margin-left:50px;
+        margin-top: 20px;
+    }
+
+    .pay-method-heading p{
+        margin-left: 10%;
+        width: 300px;
+    }
+
+    .pay-method-full{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+        
+    }
+
+    .pay-method-full section{
+        padding: 5%;
+    }
+
+    .last-profile-section{
+        padding-left: 150px;
+    }
+
+    .footer section a{
+        display: none;
+    }
+
+    .footer .footer-logo,section img{
+        padding-top: 5px;
+    }
+
+    .pricing-plans {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content section h1 {
+        font-size: 36px;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .pay-method-heading p {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .channel-ads img {
+        margin-left: 0;
+    }
+
+    .last-profile-section {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .last-section section p {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .last-section-btn {
+        margin-left: 0;
+        text-align: center;
+    }
+}
