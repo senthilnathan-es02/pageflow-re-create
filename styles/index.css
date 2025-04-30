@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.Container {
+.container-fluid {
     background-color: #18181b;
 }
 
@@ -19,12 +19,12 @@ header {
     justify-content: space-between;
 }
 
+
 .logo {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0px 10px 0px 10px;
 }
 
-.Container section input {
+.search-bar {
     width: 300px;
     height: 50px;
     border-radius: 10px;
@@ -38,7 +38,7 @@ input::placeholder {
     font-weight: 500;
 }
 
-.Container section i {
+.fa-magnifying-glass {
     position: absolute;
     left: 85px;
     top: 38%;
@@ -60,8 +60,7 @@ input::placeholder {
     height: 40px;
     border: none;
     border-radius: 10px;
-    margin-top: 8px;
-    margin-left: 8px;
+    margin: 8px 0px 0px 8px;
     background-color: #27272a;
     color: gray;
     outline: none;
@@ -97,14 +96,11 @@ input::placeholder {
 
 .content {
     padding-top: 110px;
-
-
 }
 
 
 .img-section {
     display: flex;
-    flex-direction: row;
     justify-content: center;
 }
 
@@ -112,11 +108,10 @@ input::placeholder {
     color: gray;
     text-align: center;
     font-weight: 500;
-    margin-top: 10px;
-    margin-left: 2px;
+    margin: 10px 0px 0px 2px;
 }
 
-.content section h1 {
+.content-h1 {
     width: 800px;
     font-size: 57px;
     font-weight: 700;
@@ -131,7 +126,24 @@ input::placeholder {
     color: gray;
 }
 
-.content section button {
+.content-btn {
+    margin: 20px 0px 0px 490px;
+}
+
+.btn-1 {
+    background-color: #fef08a;
+    width: 170px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-right: 15px;
+
+}
+
+.btn-2 {
+    background-color: #27272a;
+    color: white;
     width: 170px;
     height: 50px;
     border: none;
@@ -140,25 +152,8 @@ input::placeholder {
     margin-right: 15px;
 }
 
-.content-btn {
-    margin-left: 450px;
-    margin-top: 20px;
-    /* margin-bottom: 30px; */
-}
-
-.content section .btn-1 {
-    background-color: #fef08a;
-
-}
-
-.content section .btn-2 {
-    background-color: #27272a;
-    color: white;
-}
-
 .app-img {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin: 5% 0% 5% 0%;
 }
 
 .channel-ads p {
@@ -177,19 +172,16 @@ input::placeholder {
 }
 
 .cards h1 {
-    margin-top: 70px;
     color: white;
     font-weight: 700;
-    margin-bottom: 50px;
-    margin-left: 450px;
+    margin: 70px 0px 50px 450px;
 }
 
 .cards .card {
     width: 1000px;
     height: 400px;
-    margin-bottom: 20px;
     align-items: center;
-    margin-left: 150px;
+    margin: 0px 0px 20px 120px;
     background-color: #27272a;
     border-radius: 20px;
 }
@@ -238,10 +230,9 @@ input::placeholder {
     width: 300px;
     height: 310px;
     background-color: #27272a;
-    margin-right: 30px;
     border-radius: 10px;
     padding: 2%;
-    margin-bottom: 10%;
+    margin: 0px 30px 10px 0px;
 }
 
 .card-2 h6 {
@@ -260,23 +251,21 @@ input::placeholder {
     color: white;
     font-size: 45px;
     font-weight: bold;
+    width: 700px;
+    margin-left: 310px;
 }
 
-.company-ads .img-section {
-    margin-left: 60px;
-    margin-top: 25px;
-
+.img-section {
+    margin: 25px 0px 0px 60px;
 }
 
 .company-ads img {
-    margin-right: 2%;
-    margin-bottom: 30px;
+    margin: 0px 2% 30px 0px;
 
 }
 
 .book-section image {
-    margin-left: 10px;
-    margin-bottom: 40px;
+    margin: 0px 0px 40px 10px;
 }
 
 
@@ -293,8 +282,7 @@ input::placeholder {
 .pay-method-heading p {
     color: gray;
     width: 600px;
-    margin-left: 350px;
-    margin-top: 20px;
+    margin: 20px 0px 0px 350px;
     font-size: 17px;
 }
 
@@ -321,24 +309,22 @@ input::placeholder {
     color: gray;
 }
 
-.Quarterly-plan {
+.quarterly-plan {
     width: 350px;
     height: 500px;
     background-color: #27272a;
     color: white;
     padding: 1%;
-    margin-right: 3%;
-    margin-bottom: 3%;
     border-radius: 10px;
-    margin-top: 3%;
+    margin: 3% 3% 3% 0%;
 }
 
-.Quarterly-plan h2 {
+.quarterly-plan h2 {
     font-size: 20px;
     margin-top: 10px;
 }
 
-.Quarterly-plan button {
+.quarterly-plan button {
     width: 320px;
     height: 50px;
     font-weight: bold;
@@ -348,19 +334,14 @@ input::placeholder {
     margin-bottom: 30px;
 }
 
-.Quarterly-plan ul {
-
+.quarterly-plan ul {
     list-style: none;
 }
 
-.Quarterly-plan li {
+.quarterly-plan li {
     margin-bottom: 5px;
     font-weight: 400;
     font-size: 15px;
-}
-
-.Quarterly-plan ul li i {
-    color: white;
 }
 
 .highlight {
@@ -369,8 +350,7 @@ input::placeholder {
     background-color: #27272a;
     color: white;
     padding: 1%;
-    margin-right: 3%;
-    margin-bottom: 3%;
+    margin: 0% 3% 3% 0%;
     border-radius: 10px;
     border: 2px solid #fef08a;
 
@@ -402,8 +382,7 @@ input::placeholder {
 .highlight .badge {
     background-color: #fef08a;
     color: black;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin: 10px 0px 5px 0px;
 }
 
 .Team-plan {
@@ -412,10 +391,8 @@ input::placeholder {
     background-color: #27272a;
     color: white;
     padding: 1%;
-    margin-right: 3%;
-    margin-bottom: 3%;
     border-radius: 10px;
-    margin-top: 3%;
+    margin: 3% 3% 3% 0%;
 }
 
 .Team-plan h2 {
@@ -437,9 +414,7 @@ input::placeholder {
     list-style: none;
     font-weight: 400;
     font-size: 15px;
-    margin-bottom: 5px;
-    margin-top: 20px;
-
+    margin: 20px 0px 5px 0px;
 }
 
 .Team-plan select {
@@ -453,9 +428,8 @@ input::placeholder {
 }
 
 .last-profile-section {
-    margin-left: 550px;
-    margin-top: 90px;
     padding-top: 90px;
+    margin: 90px 0px 0px 550px;
 }
 
 .last-profile-section img {
@@ -474,9 +448,7 @@ input::placeholder {
     font-weight: 400;
     text-align: center;
     width: 700px;
-    margin-left: 260px;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin: 20px 0px 40px 260px;
 }
 
 .last-section-btn {
@@ -487,24 +459,22 @@ input::placeholder {
 .last-section-btn-1 {
     width: 200px;
     height: 45px;
-    margin-right: 1%;
     border: none;
     border-radius: 10px;
     background-color: #fef08a;
     font-weight: bold;
-    margin-bottom: 50px;
+    margin: 0px 3px 50px 0px;
 }
 
 .last-section-btn-2 {
     width: 200px;
     height: 45px;
-    margin-right: 1%;
     border: none;
     border-radius: 10px;
     background-color: gray;
     font-weight: bold;
     color: white;
-    margin-bottom: 50px;
+    margin: 0px 3px 50px 0px;
 }
 
 .footer {
@@ -526,89 +496,76 @@ input::placeholder {
 
 /* ---------------------------------------------------------------------------- */
 
-
-
 @media (max-width: 768px) {
-    
 
-    header .btn-section , .header-last-btn{
+    header .btn-section,
+    .header-last-btn,
+    .app-img,
+    .channel-ads,
+    .cards,
+    .img-section,
+    .book-section,
+    .last-section {
         display: none;
     }
 
-    .content-btn , .app-img , .channel-ads , .cards , .img-section, .book-section{
-        display: none;
-    }
-    .content section h1{
-        margin-left: 0%;
-    }
-
-    .cards-2{
-        display: flex;
-        flex-direction: column;
-        margin-left:50px;
-        margin-top: 20px;
-    }
-
-    .pay-method-heading p{
-        margin-left: 10%;
-        width: 300px;
-    }
-
-    .pay-method-full{
-        display: flex;
-        flex-direction: column;
-        margin-top: 5%;
-        
-    }
-
-    .pay-method-full section{
-        padding: 5%;
-    }
-
-    .last-profile-section{
-        padding-left: 150px;
-    }
-
-    .footer section a{
-        display: none;
-    }
-
-    .footer .footer-logo,section img{
-        padding-top: 5px;
-    }
-
-    .pricing-plans {
+    header {
+        width: 92%;
         flex-direction: column;
         align-items: center;
     }
 
-    .content section h1 {
-        font-size: 36px;
-        margin: 0 auto;
+    .content h1,
+    .company-ads section h1 {
+        font-size: 28px;
         width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .content-btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px auto;
+    }
+
+    .btn-1,
+    .btn-2 {
+        width: 200px;
+        margin-bottom: 15px;
     }
 
     .pay-method-heading p {
         width: 90%;
         margin: 20px auto;
+        text-align: center;
     }
 
-    .channel-ads img {
-        margin-left: 0;
-    }
-
-    .last-profile-section {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .last-section section p {
-        width: 90%;
+    .cards-2 {
+        flex-direction: column;
+        align-items: center;
         margin: 20px auto;
     }
 
-    .last-section-btn {
-        margin-left: 0;
+    .pay-method-full {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px auto;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
         text-align: center;
+        height: auto;
+    }
+
+    .footer .footer-logo img {
+        padding-top: 5px;
+    }
+
+    body {
+        padding: 10px;
     }
 }
